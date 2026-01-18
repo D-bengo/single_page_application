@@ -59,6 +59,11 @@ You can view the live demo here: [https://d-bengo.github.io/single_page_applicat
 
 ---
 
-## 📁 Folder Structure
+## Author
+
+**Denis Walubengo**  
+- GitHub: [https://github.com/D-bengo/single_page_application] 
+- Email: [kichodenis31@gmail.com]
+
 
 # single_page_application
