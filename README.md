@@ -45,9 +45,9 @@ It uses the **Free Dictionary API** to fetch live word data and is built with **
 
 
 
-## 🚀 Live Demo
+## Live Demo
 
-You can view the live demo here: [Dictionary Web App Live Demo](#)  
+You can view the live demo here: [https://d-bengo.github.io/single_page_application/] 
 
 
 ## 🛠 Technologies Used
