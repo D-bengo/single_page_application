@@ -1,0 +1,156 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #74ebd5, #9face6);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+  background: #ffffffdd; /* Semi-transparent white */
+  padding: 30px 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(10px);
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #2b2b2b;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+  color: #1f1f1f;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #4a4a4a;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+input {
+  flex: 1;
+  padding: 12px 15px;
+  font-size: 16px;
+  border-radius: 50px;
+  border: 2px solid #ddd;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.4);
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+}
+
+button:hover {
+  background: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 123, 255, 0.4);
+}
+
+/* Results Section */
+#results {
+  margin-top: 20px;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+}
+
+#wordTitle {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+#phonetic {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Definitions List */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  background: #eef4ff;
+  border-left: 4px solid #007bff;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+li:hover {
+  background: #d9eaff;
+  transform: translateX(5px);
+}
+
+/* Synonyms */
+#synonyms {
+  background: #fff4e6;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border-left: 4px solid #ff9800;
+  word-wrap: break-word;
+}
+
+/* Audio Player Styling */
+audio {
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+  .container {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  input {
+    padding: 10px;
+  }
+
+  button {
+    padding: 10px 15px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
